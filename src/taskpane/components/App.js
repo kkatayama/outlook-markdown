@@ -51,9 +51,12 @@ export default class App extends React.Component {
     // console.log(`componentDidMount: ${Office.context.diagnostics.platform}`)
     if (Office.context.diagnostics.platform === Office.PlatformType.OfficeOnline) {
       converter = new Showdown.Converter({ extensions: PreCodeExtension() });
+      converter.setOption('tables', true);
     } else {
       // CSS styles don't work well on PC. So don't enable it.
       converter = new Showdown.Converter();
+      converter.setOption('tables', true);
+
     }
   }
 

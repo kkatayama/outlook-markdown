@@ -6,11 +6,11 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Insert Markdown"/>
   <Description DefaultValue="An add-in to convert the markdown to html and insert it to the email body."/>
-  <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-80.png"/>
-  <SupportUrl DefaultValue="https://localhost:3000/help"/>
+  <IconUrl DefaultValue="https://outlook.mangoboat.tv/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://outlook.mangoboat.tv/assets/icon-80.png"/>
+  <SupportUrl DefaultValue="https://outlook.mangoboat.tv/help"/>
   <AppDomains>
-    <AppDomain>https://localhost:3000</AppDomain>
+    <AppDomain>https://outlook.mangoboat.tv</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
+        <SourceLocation DefaultValue="https://outlook.mangoboat.tv/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -70,12 +70,12 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://outlook.mangoboat.tv/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://outlook.mangoboat.tv/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://outlook.mangoboat.tv/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://outlook.mangoboat.tv/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Markdown"/>
